@@ -1,9 +1,11 @@
 body{
   /* By default, the body has margins. We want to reset these so our elements can span the entire width of the page. */
   margin:0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #EDF2F4;
 }
 #header{
-  background:rgb(250,250,250);
+  background-color: #2B2D42;
   border-bottom:1px solid rgba(50,50,50,0.5);
   padding:15px 100px;
   overflow:auto;
@@ -36,11 +38,28 @@ body{
 }
 #header .nav li a{
   text-decoration:none;
-  color:blue;
+  color:#8D99AE;
   margin:0px 10px;
 }
 #products{
   margin:auto 100px;
   padding:25px;
-  background-color:#ccc; /* Remove this line when you begin writing code - nobody wants this crappy background! */
+  background-color:#ccc; 
+}
+
+.product img{
+  display: inline-block;
+  margin-right: auto;
+  max-width: 400px;
+}
+#productinfo{
+  position: relative;
+  left: 415px;
+  bottom: 400px;
+}
+footer{
+  margin: 0;
+  width: 100%;
+  padding: 10px 100px;
+  background-color: #8D99AE;
 }
