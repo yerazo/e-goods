@@ -48,7 +48,10 @@ body{
   margin:auto 100px;
   padding:25px; 
 }
-
+.product {
+  overflow: auto;
+  margin: 25px 0px;
+}
 .product img{
   display: inline-block;
   margin-right: auto;
